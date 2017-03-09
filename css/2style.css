@@ -9,7 +9,22 @@ body {
 } */
 
 /* @import Rule */
-@import url(styles.css) all and (max-width: 1024px) {.
+@import url(styles.css) all and (max-width: 1024px) {
 
+  
+}
+
+/*the and logic allows an extra condition to be added*/
+@media all and (min-width: 800px) and (max-width: 1024px) {
+  
+}
+
+/*this logic applies to everything but a screen with color*/
+@media not screen and (color) {
+  
+}
+
+/*this logic is used for screens that dont support media queries*/
+@media only screen and (orientation: portrait) {
   
 }
