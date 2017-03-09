@@ -6,6 +6,11 @@ body {
 .container {
   width: 538px;
 }
+
+body {
+  background: #ddd;
+}
+
 section,
 aside {
   /*margin: 10px;*/
