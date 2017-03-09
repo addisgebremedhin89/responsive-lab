@@ -8,13 +8,16 @@ body {
 }
 section,
 aside {
-  margin: 10px;
+  /*margin: 10px;*/
+  margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
 }
 section {
   float: left;
-  width: 340px;
+  /*width: 340px;*/
+  width: 63.197026%;    /* 340px ÷ 538px = .63197026 */
 }
 aside {
   float: right;
-  width: 158px;
+  /*width: 158px;*/
+  width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
 }
