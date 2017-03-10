@@ -15,14 +15,14 @@ body {
 section,
 aside {
   /*margin: 10px;*/
-  margin: 1.858736059%;
+  margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
 }
 
 section {
   background: #008000;
   float: left;
   /*margin: 340px;*/
-  width: 63.197026;
+  width: 63.197026; /* 340px ÷ 538px = .63197026 */
   height: 50%;
 }
 
@@ -30,7 +30,7 @@ aside {
   background: #00F;
   float: right;
   /*margin: 158px;*/
-  width: 29.3680297%;
+  width: 29.3680297%; /* 158px ÷ 538px = .293680297 */
   height: 50%;
 }
 
@@ -70,7 +70,9 @@ aside {
 }
 
 /* @media Rule */
-/*@media all and (max-width: 1024px) {
+/*Commenting this out because I believe Shay is just using this as an example of what it would like to use the media Rule in your existing CSS sheet
+
+  @media all and (max-width: 1024px) {
   
 } */
 
