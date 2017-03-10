@@ -8,6 +8,67 @@ body {
   background: #ddd;
 }
 
+.container {
+  width: 538px;
+}
+
+section,
+aside {
+  /*margin: 10px;*/
+  margin: 1.858736059%;
+}
+
+section {
+  background: #008000;
+  float: left;
+  /*margin: 340px;*/
+  width: 63.197026;
+  height: 50%;
+}
+
+aside {
+  background: #00F;
+  float: right;
+  /*margin: 158px;*/
+  width: 29.3680297%;
+  height: 50%;
+}
+
+/*==========================================MEDIA QUERY=================================*/
+
+@media all and (max-width: 420px) {
+  section, aside {
+    float: none;
+    width: auto;
+}
+
+@media all and (min-width: 420px) {
+  .container {
+    max-width: 538px;
+}
+
+  
+/* Media for larger devices */
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url("bg.png") 50% 50% no-repeat;
+  }
+}
+
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {
+  
+}
+@media screen and (min-width: 600px)  {
+  
+}
+@media screen and (min-width: 1000px) {
+  
+}
+@media screen and (min-width: 1400px) {
+  
+}
+
 /* @media Rule */
 /*@media all and (max-width: 1024px) {
   

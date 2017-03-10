@@ -4,8 +4,7 @@ body {
 }
 
 @media all and (max-width: 420px) {
-  section,
-  aside {
+  section, aside {
     float: none;
     width: auto;
 }
@@ -14,6 +13,7 @@ body {
   .container {
     max-width: 538px;
 }
+
   
 /* Media for larger devices */
 @media screen and (min-width: 800px) {
