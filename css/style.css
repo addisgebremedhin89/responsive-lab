@@ -34,7 +34,21 @@ aside {
   height: 50%;
 }
 
-/* easiest quickest way to ensure your media is flexible just like your content on the page
+figure {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+  width: 100%;
+}
+iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* easiest quickest way to ensure your media is flexible just like your content on the page but this doesnt apply to all media especially EMBEDED media from youtube for example
   
 img, video, canvas {
   max-width: 100%;
