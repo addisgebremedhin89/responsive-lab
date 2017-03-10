@@ -35,17 +35,29 @@ aside {
 }
 
 figure {
-  height: 0;
-  padding-bottom: 56.25%; /* 16:9 */
+  /*height: 0;
+  padding-bottom: 100%;
   position: relative;
-  width: 100%;
+  width: 100%;*/
+  
+	position: relative;
+	padding-bottom: 56.25%; /*to create a 16:9 ration we must divide 9 by 16*/
+	padding-top: 25px; /*use padding instead of height to create room*/
+	height: 0;
 }
+
 iframe {
-  height: 100%;
+  /*height: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100%;*/
+  
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /* easiest quickest way to ensure your media is flexible just like your content on the page but this doesnt apply to all media especially EMBEDED media from youtube for example
