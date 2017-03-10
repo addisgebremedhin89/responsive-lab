@@ -34,9 +34,9 @@ aside {
   height: 50%;
 }
 
-/*==========================================MEDIA QUERY=================================*/
+/* Default styles first then media queries */
 
-/*theres a technique called "mobile first" which means styling the markup with the mindset of appealing to a smaller device and then using media query to be triggered for bigger devices*/
+/*==========================================MEDIA QUERY=================================*/
 
 @media all and (max-width: 420px) {
   section, aside {
@@ -53,7 +53,6 @@ aside {
 @media all and (orientation: landscape) {
   .container {
     width: auto;
-  }
 }
   
 @media all and (max-width: 420px) {
@@ -62,25 +61,24 @@ aside {
     width: auto;
   }
 }
-/* Media for larger devices */
-@media all and (min-width: 800px) and (max-width: 1024px) {
+/* Below we've added a background image for when the device is larger than8 800px and smaller than 1024, otherwise for smaller devices there wont be an image just a background color */
+@media screen and (min-width: 800px) and (max-width: 1024px) {
   body {
-    background-image: url("bg.png") 50% 50% no-repeat;
+    background: url("http://wallpapercave.com/wp/7jlmU6w.jpg") 50% 50% no-repeat;
   }
 }
 
-/* Default styles first then media queries */
-@media screen and (min-width: 400px)  {
-  
+/*theres a technique called "mobile first" which means styling the markup with the mindset of appealing to a smaller device and then using media query to be triggered for bigger devices*/
+
+/* Below are example properties if you were to implement the "mobile first" technique*/
+
+/*@media screen and (min-width: 400px)  {
 }
 @media screen and (min-width: 600px)  {
-  
 }
 @media screen and (min-width: 1000px) {
-  
 }
 @media screen and (min-width: 1400px) {
-  
 }
 
 /*Commenting this out because I believe Shay is just using this as an example of what it would like to use the media Rule in your existing CSS sheet
