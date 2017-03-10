@@ -38,6 +38,13 @@ aside {
 
 /*==========================================MEDIA QUERY=================================*/
 
+/*need to review these 2 meta tags more (below)*/
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
 @media all and (max-width: 420px) {
   section, aside {
     float: none;
