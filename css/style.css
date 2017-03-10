@@ -34,6 +34,14 @@ aside {
   height: 50%;
 }
 
+/* easiest quickest way to ensure your media is flexible just like your content on the page
+  
+img, video, canvas {
+  max-width: 100%;
+}
+
+*/
+
 /* Default styles first then media queries */
 
 /*==========================================MEDIA QUERY=================================*/
