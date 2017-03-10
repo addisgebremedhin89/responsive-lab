@@ -4,7 +4,8 @@ body {
 }
 
 @media all and (max-width: 420px) {
-  .student-container {
+  section,
+  aside {
     float: none;
     width: auto;
 }
