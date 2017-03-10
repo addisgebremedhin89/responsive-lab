@@ -36,6 +36,8 @@ aside {
 
 /*==========================================MEDIA QUERY=================================*/
 
+/*theres a technique called "mobile first" which means styling the markup with the mindset of appealing to a smaller device and then using media query to be triggered for bigger devices*/
+
 @media all and (max-width: 420px) {
   section, aside {
     float: none;
